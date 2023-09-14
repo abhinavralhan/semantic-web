@@ -1,0 +1,4 @@
+<!ELEMENT record (artist|year|contributor)+>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT contributor (#PCDATA)>

@@ -1,0 +1,6 @@
+<!DOCTYPE record [
+  <!ELEMENT record ((artist |year |contributor)+)>
+  <!ELEMENT artist (record)+>
+  <!ELEMENT year (#PCDATA)>
+  <!ELEMENT contributor (#PCDATA)>
+]>
